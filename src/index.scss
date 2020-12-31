@@ -1,0 +1,38 @@
+$primary: #FF372F;
+$info: #FF4B44;
+$warning: #F6EDEB;
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,500,600,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+@import "./../node_modules/bootstrap/scss/bootstrap";
+
+$theme-colors: (
+        "primary": $primary,
+        "info": $info,
+        "warning": $info,
+);
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-item {
+
+  &:hover {
+    border-bottom: 2px solid white;
+  }
+
+  .nav-link {
+    font-size: 18px;
+  }
+}
+
+.font-nunito {
+  font-family: 'Nunito', sans-serif;
+}
+
+.font-roboto {
+  font-family: 'Roboto', sans-serif;
+}
